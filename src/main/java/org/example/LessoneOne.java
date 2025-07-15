@@ -1,6 +1,6 @@
 package org.example;
 
-/*public class LessoneOne {   public static void printThreeWords() {
+public class LessoneOne {   public static void printThreeWords() {
     System.out.println("Orange");
     System.out.println("Banana");
     System.out.println("Apple");
@@ -9,7 +9,7 @@ package org.example;
     public static void main(String[] args) {
         printThreeWords();
     }
-} */
+}
 
 
 public class LessoneOne {
