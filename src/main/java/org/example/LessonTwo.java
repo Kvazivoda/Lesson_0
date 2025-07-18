@@ -3,12 +3,12 @@ package org.example;
 // 1.
 public class LessonTwo {
     // Поля класса
-    private String name;
-    private String productionDate;
-    private String manufacturer;
-    private String countryOfOrigin;
-    private double price;
-    private boolean isReserved;
+    private final String name;
+    private final String productionDate;
+    private final String manufacturer;
+    private final String countryOfOrigin;
+    private final double price;
+    private final boolean isReserved;
 
     // Конструктор класса
     public LessonTwo(String name, String productionDate, String manufacturer,
@@ -55,14 +55,14 @@ public class LessonTwo {
 }
     // 3.
     class Park {
-    private String parkName;
-    private Attraction[] attractions;
+    private final String parkName;
+    private final Attraction[] attractions;
 
     // Внутренний класс для хранения информации об аттракционах
     public class Attraction {
-        private String name;
-        private String workingHours;
-        private double price;
+        private final String name;
+        private final String workingHours;
+        private final double price;
 
         public Attraction(String name, String workingHours, double price) {
             this.name = name;
