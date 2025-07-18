@@ -77,7 +77,7 @@ public class LessonTwo {
             System.out.println("-----------------------------");
         }
     }
-    // Конструктор парка
+    // Конструктор парка ssss
     public Park(String parkName, Attraction[] attractions) {
         this.parkName = parkName;
         this.attractions = attractions;
