@@ -8,7 +8,7 @@ public class Lesson_7_testng {
         System.out.println("\n=== Вычисление факториала ===");
         System.out.print("Введите число: ");
         int factorialInput = scanner.nextInt();
-        System.out.println(factorialInput + "! = " + FactorialCalculator.calculate(factorialInput));
+        System.out.println(factorialInput + "! = " + FactorialCalculator1.calculate(factorialInput));
 
         // 2. Площадь треугольника
         System.out.println("\n=== Площадь треугольника ===");
@@ -16,7 +16,7 @@ public class Lesson_7_testng {
         double base = scanner.nextDouble();
         System.out.print("Введите высоту: ");
         double height = scanner.nextDouble();
-        System.out.printf("Площадь: %.2f\n", TriangleArea.calculate(base, height));
+        System.out.printf("Площадь: %.2f\n", TriangleArea1.calculate(base, height));
 
         // 3. Арифметические операции
         System.out.println("\n=== Арифметические операции ===");
@@ -24,7 +24,7 @@ public class Lesson_7_testng {
         int a = scanner.nextInt();
         System.out.print("Введите второе число: ");
         int b = scanner.nextInt();
-        System.out.println(ArithmeticOperations.performOperations(a, b));
+        System.out.println(ArithmeticOperations1.performOperations(a, b));
 
         // 4. Сравнение чисел
         System.out.println("\n=== Сравнение чисел ===");
@@ -32,7 +32,7 @@ public class Lesson_7_testng {
         int x = scanner.nextInt();
         System.out.print("Введите второе число: ");
         int y = scanner.nextInt();
-        System.out.println(NumberComparator.compare(x, y));
+        System.out.println(NumberComparator1.compare(x, y));
 
         scanner.close();
     }
